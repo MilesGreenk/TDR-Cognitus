@@ -1,7 +1,35 @@
 header {
+    display: flex;
+    justify-content: left;
  border:1rem solid purple;
 }
 
 #pageImage {
     height: 5rem;
+}
+
+header img{
+    border-radius: 2rem;
+}
+
+nav {
+    border: 0.5rem solid blueviolet;
+}
+
+.TopTrending {
+    border-style: double;
+}
+
+
+
+aside {
+    border: 0.5rem solid black;
+}
+
+main {
+    border: 1rem solid purple;
+}
+
+footer {
+    border: 1rem solid gray;
 }
