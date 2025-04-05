@@ -1,19 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: lightgray;
+}
+
+#ArgosColor {
+    padding: 2rem;
+    border: 0.1rem;
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    
+    grid-template:
+    "nav aside header" 17rem
+    "nav aside main" auto
+    "nav aside footer" 2rem /
+    9rem 10rem auto; 
+
+}
+
+.ArgosBackground {
+    border-radius: 4rem;
+}
 header {
+    grid-area: header;
     display: flex;
-    justify-content: left;
+    justify-content: center;
  border:1rem solid purple;
+ border-radius: 0.5rem;
+ background: black;
 }
 
 #pageImage {
-    height: 5rem;
+    height: 10rem;
 }
 
 header img{
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 
 nav {
+    grid-area: nav;
     border: 0.5rem solid blueviolet;
+    border-radius: 1rem;
 }
 
 .TopTrending {
@@ -23,13 +52,20 @@ nav {
 
 
 aside {
+    grid-area: aside;
     border: 0.5rem solid black;
+
+border-radius: 0.5rem;
 }
 
 main {
+    grid-area: main;
     border: 1rem solid purple;
+    border-radius: 0.5rem;
 }
 
 footer {
+    grid-area: footer;
     border: 1rem solid gray;
+    border-radius: 0.5rem;
 }
