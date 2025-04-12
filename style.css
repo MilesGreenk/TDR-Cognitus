@@ -26,6 +26,7 @@ header {
     grid-area: header;
     display: flex;
     justify-content: center;
+    align-items: center;
  border:1rem solid purple;
  border-radius: 0.5rem;
  background: black;
